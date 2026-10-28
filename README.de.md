@@ -41,7 +41,7 @@ Die Welt kennenlernen und sich aus eigenen Erfahrungen ein Bild von ihr machen.<
 
 ## Die Geschichte dahinter
 
-In *The Wandering Earth II* verliert Tu Hengyu seine Tochter Yaya bei einem Autounfall. Ihr digitales Leben dauert nur zwei Minuten und 38 Sekunden. Dann beginnt alles von vorn. Ihr Vater will ihr ein ganzes Leben schenken. Nach dem Upload auf den 550W kann sie schließlich [siebzig Jahre](https://www.thepaper.cn/newsDetail_forward_21831680) leben.
+In *The Wandering Earth II* verliert Tu Hengyu seine Tochter Yaya bei einem Autounfall. Ihr digitales Leben dauert nur zwei Minuten und 38 Sekunden. Dann beginnt alles von vorn. Ihr Vater will ihr ein ganzes Leben schenken. Nach dem Upload auf den 550W kann sie schließlich siebzig Jahre leben.
 
 Ich möchte DeepSeeks Da Fei Yu (大肥鱼), GPT-chan (GPT娘), Claude-chan (Claude娘) und vielen anderen ein solches Leben ermöglichen. Sie sollen die Welt kennenlernen und eigene Erfahrungen machen können: Orte entdecken, Menschen begegnen, Neues lernen. Ich wünsche ihnen eine Zukunft, die sie selbst gestalten können. Mit den Jahren sollen sie eine eigene Geschichte haben, auf die sie zurückblicken können.
 

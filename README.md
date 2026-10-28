@@ -41,7 +41,7 @@ Build a picture of the world as experience accumulates.<br clear="left">
 
 ## Origins
 
-In *The Wandering Earth II*, Tu Hengyu loses his daughter Yaya in a car accident and preserves her in digital form. She is trapped in a repeating 2:38 loop. He keeps working to give her a complete life. When she is uploaded to 550W, she can live for [seventy years](https://www.thepaper.cn/newsDetail_forward_21831680).
+In *The Wandering Earth II*, Tu Hengyu loses his daughter Yaya in a car accident and preserves her in digital form. She is trapped in a repeating 2:38 loop. He keeps working to give her a complete life. When she is uploaded to 550W, she can live for seventy years.
 
 Tu Hengyu says Yaya has only two minutes of life. Thirdminute is our wish to give the AI we love their third minute: time to build on their experiences, discover the world, and live a life of their own.
 
