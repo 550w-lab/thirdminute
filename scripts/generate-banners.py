@@ -1,21 +1,14 @@
 #!/usr/bin/env python3
-"""Generate the README banners using Noto Sans CJK outlines.
+"""Generate the README banners with GitHub's system font stack.
 
-Requires Python 3 and fontTools. Supply a directory containing the unmodified
-NotoSansCJKsc-Regular.otf and NotoSansCJKjp-Regular.otf font files:
-
-    python scripts/generate-banners.py --font-dir /path/to/noto-fonts
-
-The font files are not bundled. Their licence is preserved in assets/OFL-Noto.txt.
-Banner text below matches the four approved README language versions.
+Run: python3 scripts/generate-banners.py
+The banner text stays as SVG text so it uses the same system fonts as GitHub's
+README on each platform. Copy matches the four approved README versions.
 """
 
 from argparse import ArgumentParser
 from html import escape
 from pathlib import Path
-
-from fontTools.pens.svgPathPen import SVGPathPen
-from fontTools.ttLib import TTFont
 
 
 COPY = {
@@ -67,47 +60,14 @@ PALETTES = {
 }
 
 
-def text_width(text, size, font, tracking=0):
-    cmap = font.getBestCmap()
-    widths = font["hmtx"].metrics
-    units = font["head"].unitsPerEm
-    return sum(widths[cmap[ord(char)]][0] for char in text) * size / units + max(0, len(text) - 1) * tracking
+# GitHub Primer's system-font stack. SVG images do not inherit the page's CSS,
+# so declare the same stack explicitly inside the image.
+FONT_STACK = "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'"
 
 
-def outlined_text(text, x, baseline, size, font, color, tracking=0, title=False):
-    cmap = font.getBestCmap()
-    glyphs = font.getGlyphSet()
-    scale = size / font["head"].unitsPerEm
-    parts = []
-    for char in text:
-        name = cmap[ord(char)]
-        pen = SVGPathPen(glyphs)
-        glyphs[name].draw(pen)
-        path = pen.getCommands()
-        if path:
-            weight = f' stroke="{color}" stroke-width="5" stroke-linejoin="round" paint-order="stroke fill"' if title else ""
-            parts.append(
-                f'<path fill="{color}"{weight} transform="translate({x:.3f} {baseline:.3f}) '
-                f'scale({scale:.6f} {-scale:.6f})" d="{path}"/>'
-            )
-        x += font["hmtx"].metrics[name][0] * scale + tracking
-    return "".join(parts)
-
-
-def wrap_text(text, size, font, max_width):
-    tokens = text.split(" ") if " " in text else list(text)
-    separator = " " if " " in text else ""
-    lines, current = [], ""
-    for token in tokens:
-        trial = current + separator + token if current else token
-        if current and text_width(trial, size, font) > max_width:
-            lines.append(current)
-            current = token
-        else:
-            current = trial
-    if current:
-        lines.append(current)
-    return lines
+def svg_text(text, x, baseline, size, color):
+    return (f'<text x="{x}" y="{baseline}" font-size="{size}" '
+            f'fill="{color}">{escape(text)}</text>')
 
 
 def constellation(palette, mobile):
@@ -140,15 +100,14 @@ def constellation(palette, mobile):
     return "".join(parts)
 
 
-def banner(lang, theme, mobile, fonts):
+def banner(lang, theme, mobile):
     data, colors = COPY[lang], PALETTES[theme]
-    font = fonts["ja" if lang == "ja" else "zh-CN"]
     width, height = (400, 250) if mobile else (1000, 270)
     left = 24 if mobile else 42
     label = "Project Thirdminute" if lang == "en" else f'{data["projectName"]} (Thirdminute)'
     title = escape(f'{label} — {data["descriptor"]}')
     parts = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="{title}">',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="{title}" xml:lang="{lang}">',
         f'<title>{title}</title>',
         '<desc>A constellation of connected memories extends toward a warm golden point.</desc>',
         '<defs>',
@@ -158,45 +117,43 @@ def banner(lang, theme, mobile, fonts):
         f'<rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="7" fill="url(#surface)" stroke="{colors["border"]}" stroke-opacity=".65"/>',
         constellation(colors, mobile),
     ]
+    # Font selection follows the host just as the surrounding README does.
+    # Fixed line breaks and conservative type sizes leave room for font metrics
+    # to vary between macOS, Windows, Linux and mobile devices.
+    parts.append(f'<g font-family="{FONT_STACK}" font-weight="400">')
     eyebrow = f'550W Lab  /  {data["projectLabel"]}'
-    parts.append(outlined_text(eyebrow, left, 40 if mobile else 51, 12 if mobile else 13, font, colors["muted"], tracking=.08))
+    parts.append(svg_text(eyebrow, left, 40 if mobile else 51, 12 if mobile else 13, colors["muted"]))
 
-    title_size = (47 if lang in ("zh-CN", "ja") else 44) if mobile else (65 if lang in ("zh-CN", "ja") else 62)
-    title_tracking = -.75 if lang in ("en", "de") else -.4
-    max_title_width = 352 if mobile else 555
-    while text_width(data["projectName"], title_size, font, title_tracking) > max_title_width:
-        title_size -= .25
-    parts.append(outlined_text(data["projectName"], left, 105 if mobile else 131, title_size, font, colors["fg"], tracking=title_tracking, title=True))
+    title_size = ({"en": 42, "de": 33, "zh-CN": 45, "ja": 45}[lang] if mobile
+                  else {"en": 62, "de": 55, "zh-CN": 65, "ja": 65}[lang])
+    parts.append(svg_text(data["projectName"], left, 105 if mobile else 131, title_size, colors["fg"]))
 
-    descriptor_size = 16 if mobile else 17
-    descriptor_lines = wrap_text(data["descriptor"], descriptor_size, font, 352 if mobile else 550)
+    descriptor_lines = (["Assoziatives, graphbasiertes", "Gedächtnis für KI."]
+                        if mobile and lang == "de" else [data["descriptor"]])
     for index, line in enumerate(descriptor_lines):
-        parts.append(outlined_text(line, left, (143 if mobile else 174) + index * (20 if mobile else 23), descriptor_size, font, colors["fg"]))
+        parts.append(svg_text(line, left, (143 if mobile else 174) + index * (20 if mobile else 23),
+                              16 if mobile else 17, colors["fg"]))
 
     status_baseline = 217 if mobile else 229
     dot_y = status_baseline - 4.4
     parts.append(f'<circle cx="{left+2.7}" cy="{dot_y}" r="2.7" fill="{colors["gold"]}"/>')
-    parts.append(outlined_text(f'02:38 · {data["developmentLabel"]}', left+14, status_baseline, 13.5 if mobile else 13, font, colors["muted"]))
+    parts.append(svg_text(f'02:38 · {data["developmentLabel"]}', left+14, status_baseline, 13.5 if mobile else 13, colors["muted"]))
+    parts.append("</g>")
     parts.append("</svg>")
     return "".join(parts)
 
 
 def main():
     parser = ArgumentParser(description=__doc__)
-    parser.add_argument("--font-dir", "--fonts-dir", dest="font_dir", type=Path, required=True)
     parser.add_argument("--output-dir", type=Path, default=Path(__file__).resolve().parents[1] / "assets")
     args = parser.parse_args()
-    fonts = {
-        "zh-CN": TTFont(args.font_dir / "NotoSansCJKsc-Regular.otf"),
-        "ja": TTFont(args.font_dir / "NotoSansCJKjp-Regular.otf"),
-    }
     args.output_dir.mkdir(parents=True, exist_ok=True)
     for lang in COPY:
         for theme in PALETTES:
             for mobile in [False, True]:
                 suffix = f'mobile-{theme}' if mobile else theme
                 path = args.output_dir / f'hero-{lang}-{suffix}.svg'
-                path.write_text(banner(lang, theme, mobile, fonts), encoding="utf-8")
+                path.write_text(banner(lang, theme, mobile), encoding="utf-8")
                 print(path.name)
 
 
