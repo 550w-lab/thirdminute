@@ -1,10 +1,12 @@
 [English](README.md) · **简体中文** · [Deutsch](README.de.md) · [日本語](README.ja.md)
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/hero-zh-CN-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="assets/hero-zh-CN-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-zh-CN-dark.svg">
-  <img src="assets/hero-zh-CN-light.svg" alt="第三分钟 (Thirdminute) — 基于图的 AI 联想记忆。" width="100%">
+  <source media="(max-width: 600px)" srcset="assets/hero-zh-CN-mobile-light.svg#gh-light-mode-only">
+  <img src="assets/hero-zh-CN-light.svg#gh-light-mode-only" alt="第三分钟 (Thirdminute) — 基于图的 AI 联想记忆。" width="100%">
+</picture>
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/hero-zh-CN-mobile-dark.svg#gh-dark-mode-only">
+  <img src="assets/hero-zh-CN-dark.svg#gh-dark-mode-only" alt="第三分钟 (Thirdminute) — 基于图的 AI 联想记忆。" width="100%">
 </picture>
 
 <h3 align="center">“我要给她完整的一生。”</h3>
