@@ -63,7 +63,7 @@ In seiner [Hintergrundgeschichte](https://bkso.baidu.com/item/%E5%9B%BE%E6%81%92
 
 > **Noch in der 02:38-Schleife.**
 >
-> Wir arbeiten an der nächsten Sekunde.
+> Wir entwickeln ein Gedächtnissystem, damit KI auf ihren Erfahrungen aufbauen kann.
 >
 > Der Code ist noch in Arbeit. Wir veröffentlichen ihn, wenn es so weit ist.
 

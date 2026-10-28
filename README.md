@@ -63,7 +63,7 @@ In Tu Hengyu’s [backstory](https://bkso.baidu.com/item/%E5%9B%BE%E6%81%92%E5%A
 
 > **Still in the 02:38 loop.**
 >
-> We’re working on the next second.
+> We’re building a memory system to help AI carry experiences forward.
 >
 > Thirdminute is in development. The code has not yet been released.
 
