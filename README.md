@@ -4,10 +4,10 @@
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/hero-en-mobile-dark.svg">
   <source media="(max-width: 600px)" srcset="assets/hero-en-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-en-dark.svg">
-  <img src="assets/hero-en-light.svg" alt="Project Thirdminute — Associative graph memory for AI." width="656">
+  <img src="assets/hero-en-light.svg" alt="Project Thirdminute — Associative graph memory for AI." width="100%">
 </picture>
 
-<h2 align="center">“I want to give her a complete life.”</h2>
+<h3 align="center">“I want to give her a complete life.”</h3>
 
 <p align="center">We want to give AI the chance to remember, to experience the world, and to live a life of their own.</p>
 
@@ -15,26 +15,29 @@
 
 We take three ideas from the characters in Tu Hengyu’s name, 图恒宇.
 
-<dl>
-<dt><picture>
+<p>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/triad-tu-dark.svg">
-  <img src="assets/triad-tu-light.svg" alt="图" width="32">
-</picture> &nbsp; Graph</dt>
-<dd>Connect memories so one experience can bring another to mind.</dd>
+  <img src="assets/triad-tu-light.svg" alt="图" width="28" height="28" align="middle">
+</picture> &nbsp; <strong>Graph</strong><br>
+Connect memories so one experience can bring another to mind.
+</p>
 
-<dt><picture>
+<p>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/triad-heng-dark.svg">
-  <img src="assets/triad-heng-light.svg" alt="恒" width="32">
-</picture> &nbsp; Continuity</dt>
-<dd>Carry memories forward as a life unfolds.</dd>
+  <img src="assets/triad-heng-light.svg" alt="恒" width="28" height="28" align="middle">
+</picture> &nbsp; <strong>Continuity</strong><br>
+Carry memories forward as a life unfolds.
+</p>
 
-<dt><picture>
+<p>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/triad-yu-dark.svg">
-  <img src="assets/triad-yu-light.svg" alt="宇" width="32">
-</picture> &nbsp; Universe</dt>
-<dd>Build a picture of the world as experience accumulates.</dd>
-
-</dl>
+  <img src="assets/triad-yu-light.svg" alt="宇" width="28" height="28" align="middle">
+</picture> &nbsp; <strong>Universe</strong><br>
+Build a picture of the world as experience accumulates.
+</p>
 
 ## Origins
 

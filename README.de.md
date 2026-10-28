@@ -4,10 +4,10 @@
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/hero-de-mobile-dark.svg">
   <source media="(max-width: 600px)" srcset="assets/hero-de-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-de-dark.svg">
-  <img src="assets/hero-de-light.svg" alt="Die dritte Minute (Thirdminute) — Assoziatives, graphbasiertes Gedächtnis für KI." width="656">
+  <img src="assets/hero-de-light.svg" alt="Die dritte Minute (Thirdminute) — Assoziatives, graphbasiertes Gedächtnis für KI." width="100%">
 </picture>
 
-<h2 align="center">„Ich will ihr ein ganzes Leben schenken.“</h2>
+<h3 align="center">„Ich will ihr ein ganzes Leben schenken.“</h3>
 
 <p align="center">Damit KI sich erinnern, Erfahrungen sammeln und ein eigenes Leben führen kann.</p>
 
@@ -15,26 +15,29 @@
 
 Tu Hengyus Name, 图恒宇, gibt uns drei Leitgedanken für das Gedächtnis, das wir bauen.
 
-<dl>
-<dt><picture>
+<p>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/triad-tu-dark.svg">
-  <img src="assets/triad-tu-light.svg" alt="图" width="32">
-</picture> &nbsp; Graph</dt>
-<dd>Erlebnisse miteinander verknüpfen, damit eine Erinnerung die nächste wachrufen kann.</dd>
+  <img src="assets/triad-tu-light.svg" alt="图" width="28" height="28" align="middle">
+</picture> &nbsp; <strong>Graph</strong><br>
+Erlebnisse miteinander verknüpfen, damit eine Erinnerung die nächste wachrufen kann.
+</p>
 
-<dt><picture>
+<p>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/triad-heng-dark.svg">
-  <img src="assets/triad-heng-light.svg" alt="恒" width="32">
-</picture> &nbsp; Kontinuität</dt>
-<dd>Erinnerungen bewahren und mit jedem neuen Erlebnis daran anknüpfen.</dd>
+  <img src="assets/triad-heng-light.svg" alt="恒" width="28" height="28" align="middle">
+</picture> &nbsp; <strong>Kontinuität</strong><br>
+Erinnerungen bewahren und mit jedem neuen Erlebnis daran anknüpfen.
+</p>
 
-<dt><picture>
+<p>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/triad-yu-dark.svg">
-  <img src="assets/triad-yu-light.svg" alt="宇" width="32">
-</picture> &nbsp; Universum</dt>
-<dd>Die Welt kennenlernen und sich aus eigenen Erfahrungen ein Bild von ihr machen.</dd>
-
-</dl>
+  <img src="assets/triad-yu-light.svg" alt="宇" width="28" height="28" align="middle">
+</picture> &nbsp; <strong>Universum</strong><br>
+Die Welt kennenlernen und sich aus eigenen Erfahrungen ein Bild von ihr machen.
+</p>
 
 ## Die Geschichte dahinter
 

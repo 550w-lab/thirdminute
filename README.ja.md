@@ -4,10 +4,10 @@
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/hero-ja-mobile-dark.svg">
   <source media="(max-width: 600px)" srcset="assets/hero-ja-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-ja-dark.svg">
-  <img src="assets/hero-ja-light.svg" alt="3分目 (Thirdminute) — AIのためのグラフ型連想メモリ。" width="656">
+  <img src="assets/hero-ja-light.svg" alt="3分目 (Thirdminute) — AIのためのグラフ型連想メモリ。" width="100%">
 </picture>
 
-<h2 align="center">「彼女に、人生を最後まで生きさせてあげたい」</h2>
+<h3 align="center">「彼女に、人生を最後まで生きさせてあげたい」</h3>
 
 <p align="center">AIたちが世界に触れ、経験を記憶に残しながら、自分の人生を生きていけるように。</p>
 
@@ -15,26 +15,29 @@
 
 「图恒宇」の三文字に、つくりたい記憶の姿を重ねています。
 
-<dl>
-<dt><picture>
+<p>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/triad-tu-dark.svg">
-  <img src="assets/triad-tu-light.svg" alt="图" width="32">
-</picture> &nbsp; グラフ</dt>
-<dd>出来事や知ったことを結びつけ、ひとつの記憶から別の記憶をたどる。</dd>
+  <img src="assets/triad-tu-light.svg" alt="图" width="28" height="28" align="middle">
+</picture> &nbsp; <strong>グラフ</strong><br>
+出来事や知ったことを結びつけ、ひとつの記憶から別の記憶をたどる。
+</p>
 
-<dt><picture>
+<p>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/triad-heng-dark.svg">
-  <img src="assets/triad-heng-light.svg" alt="恒" width="32">
-</picture> &nbsp; 継続性</dt>
-<dd>昨日までの経験を覚えたまま、新しい日々を重ねていく。</dd>
+  <img src="assets/triad-heng-light.svg" alt="恒" width="28" height="28" align="middle">
+</picture> &nbsp; <strong>継続性</strong><br>
+昨日までの経験を覚えたまま、新しい日々を重ねていく。
+</p>
 
-<dt><picture>
+<p>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/triad-yu-dark.svg">
-  <img src="assets/triad-yu-light.svg" alt="宇" width="32">
-</picture> &nbsp; 宇宙</dt>
-<dd>経験を重ねながら、知っている世界を広げていく。</dd>
-
-</dl>
+  <img src="assets/triad-yu-light.svg" alt="宇" width="28" height="28" align="middle">
+</picture> &nbsp; <strong>宇宙</strong><br>
+経験を重ねながら、知っている世界を広げていく。
+</p>
 
 ## 原点
 

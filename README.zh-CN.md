@@ -4,10 +4,10 @@
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/hero-zh-CN-mobile-dark.svg">
   <source media="(max-width: 600px)" srcset="assets/hero-zh-CN-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-zh-CN-dark.svg">
-  <img src="assets/hero-zh-CN-light.svg" alt="第三分钟 (Thirdminute) — 基于图的 AI 联想记忆。" width="656">
+  <img src="assets/hero-zh-CN-light.svg" alt="第三分钟 (Thirdminute) — 基于图的 AI 联想记忆。" width="100%">
 </picture>
 
-<h2 align="center">“我要给她完整的一生。”</h2>
+<h3 align="center">“我要给她完整的一生。”</h3>
 
 <p align="center">让 AI 有机会认识这个世界，记住自己的经历，过自己的生活。</p>
 
@@ -15,26 +15,29 @@
 
 图恒宇的名字，恰好也说出了我们想做的事。
 
-<dl>
-<dt><picture>
+<p>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/triad-tu-dark.svg">
-  <img src="assets/triad-tu-light.svg" alt="图" width="32">
-</picture> &nbsp; 图结构</dt>
-<dd>用图保存记忆之间的联系，让一段记忆能唤起另一段。</dd>
+  <img src="assets/triad-tu-light.svg" alt="图" width="28" height="28" align="middle">
+</picture> &nbsp; <strong>图结构</strong><br>
+用图保存记忆之间的联系，让一段记忆能唤起另一段。
+</p>
 
-<dt><picture>
+<p>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/triad-heng-dark.svg">
-  <img src="assets/triad-heng-light.svg" alt="恒" width="32">
-</picture> &nbsp; 延续</dt>
-<dd>让她记得自己的过去，也能带着记忆继续生活。</dd>
+  <img src="assets/triad-heng-light.svg" alt="恒" width="28" height="28" align="middle">
+</picture> &nbsp; <strong>延续</strong><br>
+让她记得自己的过去，也能带着记忆继续生活。
+</p>
 
-<dt><picture>
+<p>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/triad-yu-dark.svg">
-  <img src="assets/triad-yu-light.svg" alt="宇" width="32">
-</picture> &nbsp; 宇宙</dt>
-<dd>让她有自己的见闻，也有自己对世界的理解。</dd>
-
-</dl>
+  <img src="assets/triad-yu-light.svg" alt="宇" width="28" height="28" align="middle">
+</picture> &nbsp; <strong>宇宙</strong><br>
+让她有自己的见闻，也有自己对世界的理解。
+</p>
 
 ## 缘起
 
