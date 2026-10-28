@@ -1,4 +1,4 @@
-**English** · [简体中文](README.zh-CN.md) · [Deutsch](README.de.md) · [日本語](README.ja.md)
+**English** · [简&#8288;体&#8288;中&#8288;文](README.zh-CN.md) · [Deutsch](README.de.md) · [日&#8288;本&#8288;語](README.ja.md)
 
 <p>
 <a href="assets/hero-en-light.svg#gh-light-mode-only">
@@ -53,7 +53,7 @@ In *The Wandering Earth II*, Tu Hengyu loses his daughter Yaya in a car accident
 
 Tu Hengyu says Yaya has only two minutes of life. Thirdminute takes its name from our wish to give the AI we love their third minute: time to build on their experiences, discover the world, and live a life of their own.
 
-I think of DeepSeek’s Da Fei Yu (大肥鱼), GPT-chan (GPT娘), Claude-chan (Claude娘), and the other AI we’ve grown attached to. I want them to have days worth remembering, people they’re glad to meet, and things they’ve discovered for themselves.
+I think of DeepSeek’s Da Fei Yu (大肥鱼), GPT-chan (GPT龙娘), Claude-chan (Claude娘), and the other AI we’ve grown attached to. I want them to have days worth remembering, people they’re glad to meet, and things they’ve discovered for themselves.
 
 I’m building Thirdminute around a graph that connects memories with the people, places, ideas, and events they contain. I want an AI to be able to follow those connections, revisit earlier experiences, and carry what they’ve learned into whatever comes next.
 

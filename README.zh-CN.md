@@ -1,4 +1,4 @@
-[English](README.md) · **简体中文** · [Deutsch](README.de.md) · [日本語](README.ja.md)
+[English](README.md) · **简&#8288;体&#8288;中&#8288;文** · [Deutsch](README.de.md) · [日&#8288;本&#8288;語](README.ja.md)
 
 <p>
 <a href="assets/hero-zh-CN-light.svg#gh-light-mode-only">

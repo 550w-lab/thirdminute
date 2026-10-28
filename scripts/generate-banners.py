@@ -123,22 +123,24 @@ def banner(lang, theme, mobile):
     # to vary between macOS, Windows, Linux and mobile devices.
     parts.append(f'<g font-family="{FONT_STACK}" font-weight="400">')
     eyebrow = f'550W Lab  /  {data["projectLabel"]}'
-    parts.append(svg_text(eyebrow, left, 40 if mobile else 51, 12 if mobile else 13, colors["muted"]))
+    parts.append(svg_text(eyebrow, left, 40 if mobile else 51, 16 if mobile else 13, colors["muted"]))
 
     title_size = ({"en": 42, "de": 33, "zh-CN": 45, "ja": 45}[lang] if mobile
                   else {"en": 62, "de": 55, "zh-CN": 65, "ja": 65}[lang])
     parts.append(svg_text(data["projectName"], left, 105 if mobile else 131, title_size, colors["fg"]))
 
     descriptor_lines = (["Assoziatives, graphbasiertes", "Gedächtnis für KI."]
-                        if mobile and lang == "de" else [data["descriptor"]])
+                        if mobile and lang == "de" else
+                        ["AIのための", "グラフ型連想メモリ。"] if mobile and lang == "ja"
+                        else [data["descriptor"]])
     for index, line in enumerate(descriptor_lines):
-        parts.append(svg_text(line, left, (143 if mobile else 174) + index * (20 if mobile else 23),
-                              16 if mobile else 17, colors["fg"]))
+        parts.append(svg_text(line, left, (143 if mobile else 174) + index * (24 if mobile else 23),
+                              20 if mobile else 17, colors["fg"]))
 
     status_baseline = 217 if mobile else 229
     dot_y = status_baseline - 4.4
     parts.append(f'<circle cx="{left+2.7}" cy="{dot_y}" r="2.7" fill="{colors["gold"]}"/>')
-    parts.append(svg_text(f'02:38 · {data["developmentLabel"]}', left+14, status_baseline, 13.5 if mobile else 13, colors["muted"]))
+    parts.append(svg_text(f'02:38 · {data["developmentLabel"]}', left+14, status_baseline, 18 if mobile else 13, colors["muted"]))
     parts.append("</g>")
     parts.append("</svg>")
     return "".join(parts)
