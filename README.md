@@ -17,26 +17,26 @@ We take three ideas from the characters in Tu Hengyu’s name, 图恒宇.
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/triad-tu-dark.svg">
-  <img src="assets/triad-tu-light.svg" alt="图" width="28" height="28" align="middle">
-</picture> &nbsp; <strong>Graph</strong><br>
-Connect memories so one experience can bring another to mind.
+  <source media="(max-width: 600px)" srcset="assets/triad-tu-row-mobile.svg">
+  <img align="left" src="assets/triad-tu-row-desktop.svg" width="48" alt="图">
+</picture>Graph<br>
+Connect memories so one experience can bring another to mind.<br clear="left">
 </p>
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/triad-heng-dark.svg">
-  <img src="assets/triad-heng-light.svg" alt="恒" width="28" height="28" align="middle">
-</picture> &nbsp; <strong>Continuity</strong><br>
-Carry memories forward as a life unfolds.
+  <source media="(max-width: 600px)" srcset="assets/triad-heng-row-mobile.svg">
+  <img align="left" src="assets/triad-heng-row-desktop.svg" width="48" alt="恒">
+</picture>Continuity<br>
+Carry memories forward as a life unfolds.<br clear="left">
 </p>
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/triad-yu-dark.svg">
-  <img src="assets/triad-yu-light.svg" alt="宇" width="28" height="28" align="middle">
-</picture> &nbsp; <strong>Universe</strong><br>
-Build a picture of the world as experience accumulates.
+  <source media="(max-width: 600px)" srcset="assets/triad-yu-row-mobile.svg">
+  <img align="left" src="assets/triad-yu-row-desktop.svg" width="48" alt="宇">
+</picture>Universe<br>
+Build a picture of the world as experience accumulates.<br clear="left">
 </p>
 
 ## Origins

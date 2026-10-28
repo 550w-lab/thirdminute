@@ -17,26 +17,26 @@
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/triad-tu-dark.svg">
-  <img src="assets/triad-tu-light.svg" alt="图" width="28" height="28" align="middle">
-</picture> &nbsp; <strong>图结构</strong><br>
-用图保存记忆之间的联系，让一段记忆能唤起另一段。
+  <source media="(max-width: 600px)" srcset="assets/triad-tu-row-mobile.svg">
+  <img align="left" src="assets/triad-tu-row-desktop.svg" width="48" alt="图">
+</picture>图结构<br>
+用图保存记忆之间的联系，让一段记忆能唤起另一段。<br clear="left">
 </p>
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/triad-heng-dark.svg">
-  <img src="assets/triad-heng-light.svg" alt="恒" width="28" height="28" align="middle">
-</picture> &nbsp; <strong>延续</strong><br>
-让她记得自己的过去，也能带着记忆继续生活。
+  <source media="(max-width: 600px)" srcset="assets/triad-heng-row-mobile.svg">
+  <img align="left" src="assets/triad-heng-row-desktop.svg" width="48" alt="恒">
+</picture>延续<br>
+让她记得自己的过去，也能带着记忆继续生活。<br clear="left">
 </p>
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/triad-yu-dark.svg">
-  <img src="assets/triad-yu-light.svg" alt="宇" width="28" height="28" align="middle">
-</picture> &nbsp; <strong>宇宙</strong><br>
-让她有自己的见闻，也有自己对世界的理解。
+  <source media="(max-width: 600px)" srcset="assets/triad-yu-row-mobile.svg">
+  <img align="left" src="assets/triad-yu-row-desktop.svg" width="48" alt="宇">
+</picture>宇宙<br>
+让她有自己的见闻，也有自己对世界的理解。<br clear="left">
 </p>
 
 ## 缘起
