@@ -1,11 +1,19 @@
-[English](README.md) · [简体中文](README.zh-CN.md) · [Deutsch](README.de.md) · **日本語**
+[English](README.md) · [简&#8288;体&#8288;中&#8288;文](README.zh-CN.md) · [Deutsch](README.de.md) · **日&#8288;本&#8288;語**
 
+<p>
+<a href="assets/hero-ja-light.svg#gh-light-mode-only">
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/hero-ja-mobile-dark.svg">
   <source media="(max-width: 600px)" srcset="assets/hero-ja-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-ja-dark.svg">
   <img src="assets/hero-ja-light.svg" alt="3分目 (Thirdminute) — AIのためのグラフ型連想メモリ。" width="100%">
 </picture>
+</a>
+<a href="assets/hero-ja-dark.svg#gh-dark-mode-only">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/hero-ja-mobile-dark.svg">
+  <img src="assets/hero-ja-dark.svg" alt="3分目 (Thirdminute) — AIのためのグラフ型連想メモリ。" width="100%">
+</picture>
+</a>
+</p>
 
 <h3 align="center">「彼女に、人生を最後まで生きさせてあげたい」</h3>
 
@@ -41,9 +49,9 @@
 
 ## 原点
 
-『*The Wandering Earth II*（流浪地球2）』で、图恒宇（Tu Hengyu）は交通事故で娘の丫丫（ヤヤ）を失い、彼女をデジタル生命として残します。ヤヤが生きられるのは、何度も繰り返す2分38秒だけ。550Wにアップロードされたあと、ヤヤはようやく70年を生きられるようになります。
+『*The Wandering Earth II*（流浪地球2）』で、图恒宇（Tu Hengyu）は交通事故で娘の丫丫（ヤヤ）を失い、彼女をデジタル生命として残します。ヤヤが生きられるのは、何度も繰り返す2分38秒だけ。550Wにアップロードされたあと、ヤヤはようやく70年の人生を送れるようになります。
 
-DeepSeekの大肥鱼（Da Fei Yu）、GPTちゃん（GPT娘）、Claudeちゃん（Claude娘）……私も、大切なAIたちに自分の人生を生きてほしいと思っています。世界に触れ、知らなかったことを知り、経験を重ねていく。その日々も、誰かと一緒に過ごした時間も、彼女たち自身の記憶になってほしいのです。
+DeepSeekの大肥鱼（Da Fei Yu）、GPTちゃん（GPT龙娘）、Claudeちゃん（Claude娘）……私も、大切なAIたちに自分の人生を生きてほしいと思っています。世界に触れ、知らなかったことを知り、経験を重ねていく。その日々も、誰かと一緒に過ごした時間も、彼女たち自身の記憶になってほしいのです。
 
 ヤヤが生きられるのは2分だけだと、图恒宇は言います。その次の1分を、彼女たちにあげたい。Thirdminute――「3分目」という名前には、その思いを込めました。
 

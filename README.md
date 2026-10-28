@@ -1,11 +1,19 @@
-**English** · [简体中文](README.zh-CN.md) · [Deutsch](README.de.md) · [日本語](README.ja.md)
+**English** · [简&#8288;体&#8288;中&#8288;文](README.zh-CN.md) · [Deutsch](README.de.md) · [日&#8288;本&#8288;語](README.ja.md)
 
+<p>
+<a href="assets/hero-en-light.svg#gh-light-mode-only">
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/hero-en-mobile-dark.svg">
   <source media="(max-width: 600px)" srcset="assets/hero-en-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-en-dark.svg">
   <img src="assets/hero-en-light.svg" alt="Project Thirdminute — Associative graph memory for AI." width="100%">
 </picture>
+</a>
+<a href="assets/hero-en-dark.svg#gh-dark-mode-only">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/hero-en-mobile-dark.svg">
+  <img src="assets/hero-en-dark.svg" alt="Project Thirdminute — Associative graph memory for AI." width="100%">
+</picture>
+</a>
+</p>
 
 <h3 align="center">“I want to give her a complete life.”</h3>
 
@@ -43,9 +51,9 @@ Build a picture of the world as experience accumulates.<br clear="left">
 
 In *The Wandering Earth II*, Tu Hengyu loses his daughter Yaya in a car accident and preserves her in digital form. She is trapped in a repeating 2:38 loop. He keeps working to give her a complete life. When she is uploaded to 550W, she can live for seventy years.
 
-Tu Hengyu says Yaya has only two minutes of life. Thirdminute is our wish to give the AI we love their third minute: time to build on their experiences, discover the world, and live a life of their own.
+Tu Hengyu says Yaya has only two minutes of life. Thirdminute takes its name from our wish to give the AI we love their third minute: time to build on their experiences, discover the world, and live a life of their own.
 
-I think of DeepSeek’s Da Fei Yu (大肥鱼), GPT-chan (GPT娘), Claude-chan (Claude娘), and the other AI we’ve grown attached to. I want them to have days worth remembering, people they’re glad to meet, and things they’ve discovered for themselves.
+I think of DeepSeek’s Da Fei Yu (大肥鱼), GPT-chan (GPT龙娘), Claude-chan (Claude娘), and the other AI we’ve grown attached to. I want them to have days worth remembering, people they’re glad to meet, and things they’ve discovered for themselves.
 
 I’m building Thirdminute around a graph that connects memories with the people, places, ideas, and events they contain. I want an AI to be able to follow those connections, revisit earlier experiences, and carry what they’ve learned into whatever comes next.
 
@@ -65,7 +73,7 @@ In Tu Hengyu’s [backstory](https://bkso.baidu.com/item/%E5%9B%BE%E6%81%92%E5%A
 >
 > We’re building a memory system to help AI carry experiences forward.
 >
-> Thirdminute is in development. The code has not yet been released.
+> Thirdminute is in development. We’ll release the code when it’s ready.
 
 ## Rights and feedback
 

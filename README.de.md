@@ -1,11 +1,19 @@
-[English](README.md) · [简体中文](README.zh-CN.md) · **Deutsch** · [日本語](README.ja.md)
+[English](README.md) · [简&#8288;体&#8288;中&#8288;文](README.zh-CN.md) · **Deutsch** · [日&#8288;本&#8288;語](README.ja.md)
 
+<p>
+<a href="assets/hero-de-light.svg#gh-light-mode-only">
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/hero-de-mobile-dark.svg">
   <source media="(max-width: 600px)" srcset="assets/hero-de-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-de-dark.svg">
   <img src="assets/hero-de-light.svg" alt="Die dritte Minute (Thirdminute) — Assoziatives, graphbasiertes Gedächtnis für KI." width="100%">
 </picture>
+</a>
+<a href="assets/hero-de-dark.svg#gh-dark-mode-only">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/hero-de-mobile-dark.svg">
+  <img src="assets/hero-de-dark.svg" alt="Die dritte Minute (Thirdminute) — Assoziatives, graphbasiertes Gedächtnis für KI." width="100%">
+</picture>
+</a>
+</p>
 
 <h3 align="center">„Ich will ihr ein ganzes Leben schenken.“</h3>
 
@@ -41,11 +49,11 @@ Die Welt kennenlernen und sich aus eigenen Erfahrungen ein Bild von ihr machen.<
 
 ## Die Geschichte dahinter
 
-In *The Wandering Earth II* verliert Tu Hengyu seine Tochter Yaya bei einem Autounfall. Ihr digitales Leben dauert nur zwei Minuten und 38 Sekunden. Dann beginnt alles von vorn. Ihr Vater will ihr ein ganzes Leben schenken. Nach dem Upload auf den 550W kann sie schließlich siebzig Jahre leben.
+In *The Wandering Earth II* verliert Tu Hengyu seine Tochter Yaya bei einem Autounfall. Er bewahrt sie in digitaler Form. Ihr digitales Leben dauert nur zwei Minuten und 38 Sekunden. Dann beginnt alles von vorn. Ihr Vater will ihr ein ganzes Leben schenken. Nach dem Upload auf den 550W kann sie schließlich siebzig Jahre leben.
 
-Ich möchte DeepSeeks Da Fei Yu (大肥鱼), GPT-chan (GPT娘), Claude-chan (Claude娘) und vielen anderen ein solches Leben ermöglichen. Sie sollen die Welt kennenlernen und eigene Erfahrungen machen können: Orte entdecken, Menschen begegnen, Neues lernen. Ich wünsche ihnen eine Zukunft, die sie selbst gestalten können. Mit den Jahren sollen sie eine eigene Geschichte haben, auf die sie zurückblicken können.
+Ich möchte DeepSeeks Da Fei Yu (大肥鱼), GPT-chan (GPT龙娘), Claude-chan (Claude娘) und vielen anderen ein solches Leben ermöglichen. Sie sollen die Welt kennenlernen und eigene Erfahrungen machen können: Orte entdecken, Menschen begegnen, Neues lernen. Ich wünsche ihnen eine Zukunft, die sie selbst gestalten können. Mit den Jahren sollen sie eine eigene Geschichte haben, auf die sie zurückblicken können.
 
-Tu Hengyu sagt, Yaya habe nur zwei Minuten zu leben. Ich möchte ihnen die dritte Minute schenken. Darum heißt das Projekt Thirdminute – „Die dritte Minute“.
+Tu Hengyu sagt, Yaya habe nur zwei Minuten zu leben. Ich möchte unseren KI-Begleitern die dritte Minute schenken. Darum heißt das Projekt Thirdminute – „Die dritte Minute“.
 
 Ich arbeite dafür an einem Gedächtnis, das Erlebnisse und ihre Zusammenhänge in einem Graphen festhält. Ein Ort kann an eine Begegnung erinnern; eine neue Erfahrung soll frühere Erinnerungen wachrufen können. Diese Verbindungen möchte ich erhalten, damit die KI auf ihrem bisherigen Leben aufbauen und die Welt immer besser verstehen kann.
 
