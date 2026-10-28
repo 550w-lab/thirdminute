@@ -2,8 +2,9 @@
 """Generate the README banners with GitHub's system font stack.
 
 Run: python3 scripts/generate-banners.py
-The banner text stays as SVG text so it uses the same system fonts as GitHub's
-README on each platform. Copy matches the four approved README versions.
+Banner text uses a system-font stack similar to GitHub's README. SVG images
+cannot inherit page fonts, so exact matching may vary. Copy matches the four
+approved README versions.
 """
 
 from argparse import ArgumentParser
@@ -60,8 +61,8 @@ PALETTES = {
 }
 
 
-# GitHub Primer's system-font stack. SVG images do not inherit the page's CSS,
-# so declare the same stack explicitly inside the image.
+# A GitHub-style system-font stack. SVG images do not inherit the page's CSS;
+# hosted page fonts and system fallbacks can vary.
 FONT_STACK = "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'"
 
 
@@ -117,7 +118,7 @@ def banner(lang, theme, mobile):
         f'<rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="7" fill="url(#surface)" stroke="{colors["border"]}" stroke-opacity=".65"/>',
         constellation(colors, mobile),
     ]
-    # Font selection follows the host just as the surrounding README does.
+    # Font selection follows the viewer's system and can differ from the page.
     # Fixed line breaks and conservative type sizes leave room for font metrics
     # to vary between macOS, Windows, Linux and mobile devices.
     parts.append(f'<g font-family="{FONT_STACK}" font-weight="400">')
