@@ -17,26 +17,26 @@
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/triad-tu-dark.svg">
-  <img src="assets/triad-tu-light.svg" alt="图" width="28" height="28" align="middle">
-</picture> &nbsp; <strong>グラフ</strong><br>
-出来事や知ったことを結びつけ、ひとつの記憶から別の記憶をたどる。
+  <source media="(max-width: 600px)" srcset="assets/triad-tu-row-mobile.svg">
+  <img align="left" src="assets/triad-tu-row-desktop.svg" width="48" alt="图">
+</picture>グラフ<br>
+出来事や知ったことを結びつけ、ひとつの記憶から別の記憶をたどる。<br clear="left">
 </p>
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/triad-heng-dark.svg">
-  <img src="assets/triad-heng-light.svg" alt="恒" width="28" height="28" align="middle">
-</picture> &nbsp; <strong>継続性</strong><br>
-昨日までの経験を覚えたまま、新しい日々を重ねていく。
+  <source media="(max-width: 600px)" srcset="assets/triad-heng-row-mobile.svg">
+  <img align="left" src="assets/triad-heng-row-desktop.svg" width="48" alt="恒">
+</picture>継続性<br>
+昨日までの経験を覚えたまま、新しい日々を重ねていく。<br clear="left">
 </p>
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/triad-yu-dark.svg">
-  <img src="assets/triad-yu-light.svg" alt="宇" width="28" height="28" align="middle">
-</picture> &nbsp; <strong>宇宙</strong><br>
-経験を重ねながら、知っている世界を広げていく。
+  <source media="(max-width: 600px)" srcset="assets/triad-yu-row-mobile.svg">
+  <img align="left" src="assets/triad-yu-row-desktop.svg" width="48" alt="宇">
+</picture>宇宙<br>
+経験を重ねながら、知っている世界を広げていく。<br clear="left">
 </p>
 
 ## 原点
