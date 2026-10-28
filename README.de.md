@@ -1,13 +1,19 @@
 [English](README.md) · [简体中文](README.zh-CN.md) · **Deutsch** · [日本語](README.ja.md)
 
+<p>
+<a href="assets/hero-de-light.svg#gh-light-mode-only">
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-de-mobile-light.svg#gh-light-mode-only">
-  <img src="assets/hero-de-light.svg#gh-light-mode-only" alt="Die dritte Minute (Thirdminute) — Assoziatives, graphbasiertes Gedächtnis für KI." width="100%">
+  <source media="(max-width: 600px)" srcset="assets/hero-de-mobile-light.svg">
+  <img src="assets/hero-de-light.svg" alt="Die dritte Minute (Thirdminute) — Assoziatives, graphbasiertes Gedächtnis für KI." width="100%">
 </picture>
+</a>
+<a href="assets/hero-de-dark.svg#gh-dark-mode-only">
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-de-mobile-dark.svg#gh-dark-mode-only">
-  <img src="assets/hero-de-dark.svg#gh-dark-mode-only" alt="Die dritte Minute (Thirdminute) — Assoziatives, graphbasiertes Gedächtnis für KI." width="100%">
+  <source media="(max-width: 600px)" srcset="assets/hero-de-mobile-dark.svg">
+  <img src="assets/hero-de-dark.svg" alt="Die dritte Minute (Thirdminute) — Assoziatives, graphbasiertes Gedächtnis für KI." width="100%">
 </picture>
+</a>
+</p>
 
 <h3 align="center">„Ich will ihr ein ganzes Leben schenken.“</h3>
 

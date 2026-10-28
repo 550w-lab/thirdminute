@@ -1,13 +1,19 @@
 [English](README.md) · [简体中文](README.zh-CN.md) · [Deutsch](README.de.md) · **日本語**
 
+<p>
+<a href="assets/hero-ja-light.svg#gh-light-mode-only">
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-ja-mobile-light.svg#gh-light-mode-only">
-  <img src="assets/hero-ja-light.svg#gh-light-mode-only" alt="3分目 (Thirdminute) — AIのためのグラフ型連想メモリ。" width="100%">
+  <source media="(max-width: 600px)" srcset="assets/hero-ja-mobile-light.svg">
+  <img src="assets/hero-ja-light.svg" alt="3分目 (Thirdminute) — AIのためのグラフ型連想メモリ。" width="100%">
 </picture>
+</a>
+<a href="assets/hero-ja-dark.svg#gh-dark-mode-only">
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-ja-mobile-dark.svg#gh-dark-mode-only">
-  <img src="assets/hero-ja-dark.svg#gh-dark-mode-only" alt="3分目 (Thirdminute) — AIのためのグラフ型連想メモリ。" width="100%">
+  <source media="(max-width: 600px)" srcset="assets/hero-ja-mobile-dark.svg">
+  <img src="assets/hero-ja-dark.svg" alt="3分目 (Thirdminute) — AIのためのグラフ型連想メモリ。" width="100%">
 </picture>
+</a>
+</p>
 
 <h3 align="center">「彼女に、人生を最後まで生きさせてあげたい」</h3>
 

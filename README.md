@@ -1,13 +1,19 @@
 **English** · [简体中文](README.zh-CN.md) · [Deutsch](README.de.md) · [日本語](README.ja.md)
 
+<p>
+<a href="assets/hero-en-light.svg#gh-light-mode-only">
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-en-mobile-light.svg#gh-light-mode-only">
-  <img src="assets/hero-en-light.svg#gh-light-mode-only" alt="Project Thirdminute — Associative graph memory for AI." width="100%">
+  <source media="(max-width: 600px)" srcset="assets/hero-en-mobile-light.svg">
+  <img src="assets/hero-en-light.svg" alt="Project Thirdminute — Associative graph memory for AI." width="100%">
 </picture>
+</a>
+<a href="assets/hero-en-dark.svg#gh-dark-mode-only">
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-en-mobile-dark.svg#gh-dark-mode-only">
-  <img src="assets/hero-en-dark.svg#gh-dark-mode-only" alt="Project Thirdminute — Associative graph memory for AI." width="100%">
+  <source media="(max-width: 600px)" srcset="assets/hero-en-mobile-dark.svg">
+  <img src="assets/hero-en-dark.svg" alt="Project Thirdminute — Associative graph memory for AI." width="100%">
 </picture>
+</a>
+</p>
 
 <h3 align="center">“I want to give her a complete life.”</h3>
 
