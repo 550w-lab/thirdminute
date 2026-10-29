@@ -27,7 +27,7 @@
 <picture>
   <source media="(max-width: 600px)" srcset="assets/triad-tu-row-mobile.svg">
   <img align="left" src="assets/triad-tu-row-desktop.svg" width="48" alt="图">
-</picture><picture><img src="assets/triad-label-spacer.svg" width="1" height="44" align="middle" alt=""></picture>图结构<br>
+</picture><picture><img src="assets/triad-label-spacer.svg" width="1" height="28" align="baseline" alt=""></picture>图结构<br>
 用图保存记忆之间的联系，让一段记忆能唤起另一段。<br clear="left">
 </p>
 
@@ -35,7 +35,7 @@
 <picture>
   <source media="(max-width: 600px)" srcset="assets/triad-heng-row-mobile.svg">
   <img align="left" src="assets/triad-heng-row-desktop.svg" width="48" alt="恒">
-</picture><picture><img src="assets/triad-label-spacer.svg" width="1" height="44" align="middle" alt=""></picture>延续<br>
+</picture><picture><img src="assets/triad-label-spacer.svg" width="1" height="29" align="baseline" alt=""></picture>延续<br>
 让她记得自己的过去，也能带着记忆继续生活。<br clear="left">
 </p>
 
@@ -43,7 +43,7 @@
 <picture>
   <source media="(max-width: 600px)" srcset="assets/triad-yu-row-mobile.svg">
   <img align="left" src="assets/triad-yu-row-desktop.svg" width="48" alt="宇">
-</picture><picture><img src="assets/triad-label-spacer.svg" width="1" height="44" align="middle" alt=""></picture>宇宙<br>
+</picture><picture><img src="assets/triad-label-spacer.svg" width="1" height="30" align="baseline" alt=""></picture>宇宙<br>
 让她有自己的见闻，也有自己对世界的理解。<br clear="left">
 </p>
 
