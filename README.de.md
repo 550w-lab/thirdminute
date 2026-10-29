@@ -27,7 +27,7 @@ Tu Hengyus Name, 图恒宇, gibt uns drei Leitgedanken für das Gedächtnis, das
 <picture>
   <source media="(max-width: 600px)" srcset="assets/triad-tu-row-mobile.svg">
   <img align="left" src="assets/triad-tu-row-desktop.svg" width="48" alt="图">
-</picture><picture><img src="assets/triad-label-spacer.svg" width="1" height="26" align="baseline" alt=""></picture>Graph<br>
+</picture>Graph<br>
 Erlebnisse miteinander verknüpfen, damit eine Erinnerung die nächste wachrufen kann.<br clear="left">
 </p>
 
@@ -35,7 +35,7 @@ Erlebnisse miteinander verknüpfen, damit eine Erinnerung die nächste wachrufen
 <picture>
   <source media="(max-width: 600px)" srcset="assets/triad-heng-row-mobile.svg">
   <img align="left" src="assets/triad-heng-row-desktop.svg" width="48" alt="恒">
-</picture><picture><img src="assets/triad-label-spacer.svg" width="1" height="26" align="baseline" alt=""></picture>Kontinuität<br>
+</picture>Kontinuität<br>
 Erinnerungen bewahren und mit jedem neuen Erlebnis daran anknüpfen.<br clear="left">
 </p>
 
@@ -43,7 +43,7 @@ Erinnerungen bewahren und mit jedem neuen Erlebnis daran anknüpfen.<br clear="l
 <picture>
   <source media="(max-width: 600px)" srcset="assets/triad-yu-row-mobile.svg">
   <img align="left" src="assets/triad-yu-row-desktop.svg" width="48" alt="宇">
-</picture><picture><img src="assets/triad-label-spacer.svg" width="1" height="26" align="baseline" alt=""></picture>Universum<br>
+</picture>Universum<br>
 Die Welt kennenlernen und sich aus eigenen Erfahrungen ein Bild von ihr machen.<br clear="left">
 </p>
 

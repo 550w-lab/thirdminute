@@ -27,7 +27,7 @@
 <picture>
   <source media="(max-width: 600px)" srcset="assets/triad-tu-row-mobile.svg">
   <img align="left" src="assets/triad-tu-row-desktop.svg" width="48" alt="图">
-</picture><picture><img src="assets/triad-label-spacer.svg" width="1" height="26" align="baseline" alt=""></picture>グラフ<br>
+</picture>グラフ<br>
 出来事や知ったことを結びつけ、ひとつの記憶から別の記憶をたどる。<br clear="left">
 </p>
 
@@ -35,7 +35,7 @@
 <picture>
   <source media="(max-width: 600px)" srcset="assets/triad-heng-row-mobile.svg">
   <img align="left" src="assets/triad-heng-row-desktop.svg" width="48" alt="恒">
-</picture><picture><img src="assets/triad-label-spacer.svg" width="1" height="26" align="baseline" alt=""></picture>継続性<br>
+</picture>継続性<br>
 昨日までの経験を覚えたまま、新しい日々を重ねていく。<br clear="left">
 </p>
 
@@ -43,7 +43,7 @@
 <picture>
   <source media="(max-width: 600px)" srcset="assets/triad-yu-row-mobile.svg">
   <img align="left" src="assets/triad-yu-row-desktop.svg" width="48" alt="宇">
-</picture><picture><img src="assets/triad-label-spacer.svg" width="1" height="26" align="baseline" alt=""></picture>宇宙<br>
+</picture>宇宙<br>
 経験を重ねながら、知っている世界を広げていく。<br clear="left">
 </p>
 

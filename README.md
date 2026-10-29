@@ -27,7 +27,7 @@ We take three ideas from the characters in Tu Hengyu’s name, 图恒宇.
 <picture>
   <source media="(max-width: 600px)" srcset="assets/triad-tu-row-mobile.svg">
   <img align="left" src="assets/triad-tu-row-desktop.svg" width="48" alt="图">
-</picture><picture><img src="assets/triad-label-spacer.svg" width="1" height="26" align="baseline" alt=""></picture>Graph<br>
+</picture>Graph<br>
 Connect memories so one experience can bring another to mind.<br clear="left">
 </p>
 
@@ -35,7 +35,7 @@ Connect memories so one experience can bring another to mind.<br clear="left">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/triad-heng-row-mobile.svg">
   <img align="left" src="assets/triad-heng-row-desktop.svg" width="48" alt="恒">
-</picture><picture><img src="assets/triad-label-spacer.svg" width="1" height="26" align="baseline" alt=""></picture>Continuity<br>
+</picture>Continuity<br>
 Carry memories forward as a life unfolds.<br clear="left">
 </p>
 
@@ -43,7 +43,7 @@ Carry memories forward as a life unfolds.<br clear="left">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/triad-yu-row-mobile.svg">
   <img align="left" src="assets/triad-yu-row-desktop.svg" width="48" alt="宇">
-</picture><picture><img src="assets/triad-label-spacer.svg" width="1" height="26" align="baseline" alt=""></picture>Universe<br>
+</picture>Universe<br>
 Build a picture of the world as experience accumulates.<br clear="left">
 </p>
 
