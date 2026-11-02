@@ -79,7 +79,7 @@ DeepSeek 的大肥鱼、GPT龙娘、Claude娘……我也想给我们深爱的 A
 
 这里展示的是 Thirdminute 的项目预告。项目原创内容的相关权利予以保留，详见 [LICENSE](LICENSE)；第三方材料仍遵循各自的许可条款。
 
-欢迎反馈和建议。目前暂不接受外部代码贡献，详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+欢迎反馈和建议，详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ---
 

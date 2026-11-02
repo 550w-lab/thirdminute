@@ -79,7 +79,7 @@ DeepSeekの大肥鱼（Da Fei Yu）、GPTちゃん（GPT龙娘）、Claudeちゃ
 
 このリポジトリでは、Thirdminuteの構想を紹介しています。プロジェクト独自の文章・画像などの権利は留保されています。詳しくは[LICENSE](LICENSE)をご覧ください。第三者の素材には、それぞれのライセンスが適用されます。
 
-ご意見やご提案を歓迎します。現在、外部からのコードの提供は受け付けていません。詳しくは[CONTRIBUTING.md](CONTRIBUTING.md)をご覧ください。
+ご意見やご提案を歓迎します。詳しくは[CONTRIBUTING.md](CONTRIBUTING.md)をご覧ください。
 
 ---
 

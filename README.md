@@ -79,7 +79,7 @@ In Tu Hengyu’s [backstory](https://bkso.baidu.com/item/%E5%9B%BE%E6%81%92%E5%A
 
 This repository contains a preview of Thirdminute. Rights in the original project materials are reserved; see [LICENSE](LICENSE). Third-party materials remain subject to their respective licences.
 
-Feedback and suggestions are welcome. External code contributions are not being accepted at this stage. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Feedback and suggestions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 

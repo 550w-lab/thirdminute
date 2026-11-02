@@ -79,7 +79,7 @@ In seiner [Hintergrundgeschichte](https://bkso.baidu.com/item/%E5%9B%BE%E6%81%92
 
 Dieses Repository gibt einen ersten Einblick in Thirdminute. Die Rechte an den eigenen Projektmaterialien bleiben vorbehalten; siehe [LICENSE](LICENSE). Für Inhalte Dritter gelten deren jeweilige Lizenzbedingungen.
 
-Feedback und Anregungen sind willkommen. Externe Codebeiträge nehmen wir derzeit nicht an. Näheres steht in [CONTRIBUTING.md](CONTRIBUTING.md).
+Feedback und Anregungen sind willkommen. Näheres steht in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
