@@ -140,7 +140,7 @@ def banner(lang, theme, mobile):
     status_baseline = 217 if mobile else 229
     dot_y = status_baseline - 4.4
     parts.append(f'<circle cx="{left+2.7}" cy="{dot_y}" r="2.7" fill="{colors["gold"]}"/>')
-    parts.append(svg_text(f'02:38 · {data["developmentLabel"]}', left+14, status_baseline, 18 if mobile else 13, colors["muted"]))
+    parts.append(svg_text(f'02:00 · {data["developmentLabel"]}', left+14, status_baseline, 18 if mobile else 13, colors["muted"]))
     parts.append("</g>")
     parts.append("</svg>")
     return "".join(parts)

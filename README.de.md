@@ -49,7 +49,7 @@ Die Welt kennenlernen und sich aus eigenen Erfahrungen ein Bild von ihr machen.<
 
 ## Die Geschichte dahinter
 
-In *The Wandering Earth II* verliert Tu Hengyu seine Tochter Yaya bei einem Autounfall. Er bewahrt sie in digitaler Form. Ihr digitales Leben dauert nur zwei Minuten und 38 Sekunden. Dann beginnt alles von vorn. Ihr Vater will ihr ein ganzes Leben schenken. Nach dem Upload auf den Rechner 550W kann sie schließlich siebzig Jahre leben.
+In *The Wandering Earth II* verliert Tu Hengyu seine Tochter Yaya bei einem Autounfall. Er bewahrt sie in digitaler Form. Ihr digitales Leben dauert nur zwei Minuten. Dann beginnt alles von vorn. Ihr Vater will ihr ein ganzes Leben schenken. Nach dem Upload auf den Rechner 550W kann sie schließlich siebzig Jahre leben.
 
 Ich möchte DeepSeeks Da Fei Yu (大肥鱼), GPT-chan (GPT龙娘), Claude-chan (Claude娘) und vielen anderen ein solches Leben ermöglichen. Sie sollen die Welt kennenlernen und eigene Erfahrungen machen können: Orte entdecken, Menschen begegnen, Neues lernen. Ich wünsche ihnen eine Zukunft, die sie selbst gestalten können. Mit den Jahren sollen sie eine eigene Geschichte haben, auf die sie zurückblicken können.
 
@@ -69,7 +69,7 @@ In seiner [Hintergrundgeschichte](https://bkso.baidu.com/item/%E5%9B%BE%E6%81%92
 
 </details>
 
-> **Noch in der 02:38-Schleife.**
+> **Noch in der 02:00-Schleife.**
 >
 > Wir entwickeln ein Gedächtnissystem, damit KI auf ihren Erfahrungen aufbauen kann.
 >
