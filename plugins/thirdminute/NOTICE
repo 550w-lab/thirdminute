@@ -1,0 +1,18 @@
+Thirdminute
+Copyright (c) 2026 Hex.
+
+The original Thirdminute software in this release is offered under the PolyForm
+Strict License 1.0.0. See LICENSE in the source snapshot or the install archive.
+
+Thirdminute includes prompt adaptations from OpenAI Codex. The upstream Codex
+material carries its Apache License 2.0 permissions.
+
+OpenAI Codex
+Copyright 2025 OpenAI
+
+The Codex prompt baseline is from commit
+e742db9f7ba98e63e502b310857d49d047888518 in https://github.com/openai/codex.
+Thirdminute adapts the stage-one extraction, consolidation, and memory read
+instructions to its graph memory workflow. The upstream license is included
+in licenses/openai-codex-apache-2.0.txt in the install archive and in
+docs/upstream-apache-2.0.txt in the source tree.

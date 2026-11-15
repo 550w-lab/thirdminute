@@ -19,6 +19,12 @@
 
 <p align="center">Damit KI sich erinnern, Erfahrungen sammeln und ein eigenes Leben führen kann.</p>
 
+## Die Linux-Vorschau ausprobieren
+
+[Thirdminute 0.2.10](https://github.com/550w-lab/thirdminute/releases/tag/v0.2.10) · [Installationsanleitung (Englisch)](plugins/thirdminute/README.md)
+
+Die Vorschau läuft unter x86-64-Linux mit Python 3.11 oder neuer und Codex CLI 0.169.0, 0.168.0, 0.167.2 oder 0.166.0. Auf der Release-Seite stehen das Installationsarchiv, die Prüfsummendatei `SHA256SUMS` und ein Quellcode-Archiv zum Download bereit.
+
 ## Die Tu-Hengyu-Triade
 
 Tu Hengyus Name, 图恒宇, gibt uns drei Leitgedanken für das Gedächtnis, das wir bauen.
@@ -72,12 +78,12 @@ In seiner [Hintergrundgeschichte](https://bkso.baidu.com/item/%E5%9B%BE%E6%81%92
 > **Noch in der 02:00-Schleife.**
 >
 > Wir entwickeln ein Gedächtnissystem, damit KI auf ihren Erfahrungen aufbauen kann.
->
-> Der Code ist noch in Arbeit. Wir veröffentlichen ihn, wenn es so weit ist.
 
 ## Rechte und Feedback
 
-Dieses Repository gibt einen ersten Einblick in Thirdminute. Die Rechte an den eigenen Projektmaterialien bleiben vorbehalten; siehe [LICENSE](LICENSE). Für Inhalte Dritter gelten deren jeweilige Lizenzbedingungen.
+Die Originalsoftware von Thirdminute steht unter der PolyForm Strict License 1.0.0. [Softwarelizenz](LICENSE)
+
+Die Rechte an den eigenen Texten und Grafiken des Projekts bleiben vorbehalten. Für Inhalte Dritter gelten deren jeweilige Lizenzbedingungen. [Rechtehinweis zur Vorschau](LICENSE-PREVIEW) · [Hinweise zu den enthaltenen Codex-Materialien](plugins/thirdminute/NOTICE)
 
 Feedback und Anregungen sind willkommen. Näheres steht in [CONTRIBUTING.md](CONTRIBUTING.md).
 

@@ -19,6 +19,12 @@
 
 <p align="center">让 AI 有机会认识这个世界，记住自己的经历，过自己的生活。</p>
 
+## 试用 Linux 预览版
+
+[Thirdminute 0.2.10 发布页](https://github.com/550w-lab/thirdminute/releases/tag/v0.2.10) · [安装指南（英文）](plugins/thirdminute/README.md)
+
+预览版适用于 x86-64 Linux，需要 Python 3.11 或更高版本。支持 Codex CLI 0.169.0、0.168.0、0.167.2 和 0.166.0。发布页提供安装包、校验文件 `SHA256SUMS` 和源代码快照。
+
 ## 图恒宇三要素
 
 图恒宇的名字，恰好也说出了我们想做的事。
@@ -72,12 +78,12 @@ DeepSeek 的大肥鱼、GPT龙娘、Claude娘……我也想给我们深爱的 A
 > **我们还在 02:00 的循环里。**
 >
 > 我们正在开发记忆系统，希望 AI 能记住自己的经历，带着记忆继续生活。
->
-> 项目还在开发中，代码准备好后会公开。
 
 ## 权利与反馈
 
-这里展示的是 Thirdminute 的项目预告。项目原创内容的相关权利予以保留，详见 [LICENSE](LICENSE)；第三方材料仍遵循各自的许可条款。
+Thirdminute 的原创软件采用 PolyForm Strict 1.0.0 许可证。[软件许可证](LICENSE)
+
+项目原创文字和图片的相关权利予以保留。第三方材料遵循各自的许可条款。[预览材料权利声明](LICENSE-PREVIEW) · [随附 Codex 材料声明](plugins/thirdminute/NOTICE)
 
 欢迎反馈和建议，详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 

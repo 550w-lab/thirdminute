@@ -19,6 +19,18 @@
 
 <p align="center">We want to give AI the chance to remember, to experience the world, and to live a life of their own.</p>
 
+Thirdminute gives Codex CLI memory across chats. After you enable learning, Thirdminute learns from completed turns and builds a memory graph on your machine. In a later chat, Codex can search the graph for a past decision and follow its links to the experiences that explain it.
+
+## Try the Linux preview
+
+[Thirdminute 0.2.10 release](https://github.com/550w-lab/thirdminute/releases/tag/v0.2.10) · [Install guide](plugins/thirdminute/README.md)
+
+Use x86-64 Linux, Python 3.11 or later, and Codex CLI 0.169.0, 0.168.0, 0.167.2, or 0.166.0. Memory workers use `gpt-6.1-terra` at `xhigh` by default. You can choose a model and reasoning effort available to your Codex account with `thirdminute worker-model`. [Worker model settings](plugins/thirdminute/README.md#choose-the-memory-worker-model)
+
+Download the install archive and `SHA256SUMS` from the release. The guide walks you through installation and hook approval, then shows how to teach Codex a test fact in one chat and recall it in another. It also covers backup, restore, and uninstall. The release includes a source snapshot you can read or ask your agent to explain.
+
+Learning is off until you enable it. The graph stays on your machine. For learning and memory maintenance, Codex sends the relevant conversation material or memory records to its model.
+
 ## The Tu Hengyu Triad
 
 We take three ideas from the characters in Tu Hengyu’s name, 图恒宇.
@@ -69,15 +81,11 @@ In Tu Hengyu’s [backstory](https://bkso.baidu.com/item/%E5%9B%BE%E6%81%92%E5%A
 
 </details>
 
-> **Still in the 02:00 loop.**
->
-> We’re building a memory system to help AI carry experiences forward.
->
-> Thirdminute is in development. We’ll release the code when it’s ready.
-
 ## Rights and feedback
 
-This repository contains a preview of Thirdminute. Rights in the original project materials are reserved; see [LICENSE](LICENSE). Third-party materials remain subject to their respective licences.
+Thirdminute’s original software is available under [PolyForm Strict 1.0.0](https://polyformproject.org/licenses/strict/1.0.0). It permits noncommercial use and the institutional uses listed in the license. Contact 550W Lab for permission to use Thirdminute commercially outside those terms, modify it, or redistribute copies. The source snapshot and install archive include the license and the [Apache 2.0 terms and attribution for the bundled Codex material](plugins/thirdminute/NOTICE).
+
+The [preview materials notice](LICENSE-PREVIEW) covers the original project text and artwork.
 
 Feedback and suggestions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
